@@ -1,0 +1,40 @@
+{
+  "name": "viteTests",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --mode development",
+    "test": "vite --mode testbuild",
+    "build": "vite build --mode development"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.7",
+    "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.33",
+    "qs": "^6.9.6",
+    "vue": "^3.0.4",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^0.4.0",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "sass": "^1.32.8",
+    "vite": "^2.0.5"
+  }
+}
